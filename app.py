@@ -471,6 +471,7 @@ table_css_and_html = """
         padding: 4px;
         background-color: #ffffff;
         color: #000000;
+        min-width: 30px;
     }
     .calendar-table th {
         font-weight: bold;
@@ -670,7 +671,7 @@ for cls_idx, cls in enumerate(st.session_state.user_settings["classes"]):
     room = cls.get("room", "")
     c_name = cls.get("name", "")
     
-    label = f"{room} ({c_name})" if room and c_name else f"{room}{c_name}"
+    label = f"{c_name} ({room})" if room and c_name else f"{c_name}{room}"
     
     table_css_and_html += f"<tr><td class='day-label border-right-major'>{label}</td>"
     for w_idx in range(len(filtered_weeks)):
