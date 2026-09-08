@@ -20,7 +20,7 @@ DEFAULT_SETTINGS = {
         {"name": "Tavaszi vakáció", "start": "2027-04-26", "end": "2027-05-04"}
     ],
     "exam_mock": {"start": "2027-03-22", "end": "2027-03-26"},
-    "exam_oral": {"start": "2027-06-07", "end": "2027-06-11"},
+    "exam_oral": {"start": "2027-04-12", "end": "2027-04-23"},
     "exam_written": {"start": "2027-06-14", "end": "2027-06-18"},
     "classes": [
         {"name": "9C", "room": "228"},
